@@ -26,14 +26,15 @@ random.seed(27)
 torch.manual_seed(27)
 np.random.seed(27)
 
+#Initialization
+pathInput = ""
+pathGT = ""
+outputDir = ""
+
 #Create directory for checkpoints
 currDate = datetime.now()
-saveDir ="/media/bralet/Elements/SARDINet/" + str(currDate).replace(' ', '_').replace(':',"-") + "/" 
+saveDir = outputDir + str(currDate).replace(' ', '_').replace(':',"-") + "/" 
 checkDir(saveDir)
-
-#Initialization
-pathInput = "/media/bralet/Elements/DataSpaceNet6/AOI_Subset_SAR/"
-pathGT = "/media/bralet/Elements/DataSpaceNet6/AOI_Subset_RGBNIR/"
 
 device = "cuda" if (torch.cuda.is_available()) else "cpu"      #Whether to use gpu or cpu
 
