@@ -8,6 +8,12 @@ The code is the baseline to compute the results obtained in the paper.
 
 ### Guidelines
 
+Data used in the paper are available on IEEE Dataport :
+
+*Abdourrahmane ATTO, January 9, 2022, "Can Artificial Intelligence Untangle Distorted and Compressed Geometries Associated with SAR Images of 3D Objects ? ", IEEE Dataport, doi: https://dx.doi.org/10.21227/y3pm-1113.*
+
+
+
 The code was computed using Python 3.10.6 and the packages versions detailed in the file `requirements.txt`.
 
 In order to run the code please follow the next steps :
